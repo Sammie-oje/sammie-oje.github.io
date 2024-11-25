@@ -1,2 +1,2 @@
-# sammie-oje.github.io
-A simple e-learning site
+# Educom-page
+ Just a simple e-learning site

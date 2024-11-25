@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Education, learning, online">
+    <!-- <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.css"> -->
+    <link rel="stylesheet" href="Educom page.css">
+    <title>Educom page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="Images/web design logo.webP" alt="Educom logo" class="logo">
+            <div class="dropdown">
+                <i class="fa-solid fa-book" title="menu" id="dropbtn" onclick="myFunction()"></i>
+                <div id="myDropdown" class="dropdown-menu">
+                    <a href="#">Home</a>
+                    <a href="#">Courses</a>
+                    <a href="#">Teacher</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <button type="button">
+                Sign in <i class="fa-solid fa-arrow-right" id="arrow_right"></i>
+            </button>
+        </nav>
+        <section class="hd_section">
+            <div class="hd_section-content">
+                <h3>A New Way of <br> Digital Literacy</h3>
+                <p>A Solution for easy and flexible online learning. You can study <br>
+                  anywhere through this platform
+                </p>
+                <div class="btn-container">
+                    <button type="button" class=" btn btn1">Get Started</button>
+                    <button type="button" class=" btn btn2" title="Continue to sign up"><i class="fa-solid fa-play"></i></button>
+                </div>
+                
+                <div class="trust-div">
+                   <span> <i class="fa-solid fa-check" id="check1"></i> Experienced mentor</span>
+                    <span> <i class="fa-solid fa-check" id="check2"></i> Quality videos</span>
+                    <span> <i class="fa-solid fa-check" id="check3"></i> Affordable prices</span>
+                </div>
+                
+            </div>
+            
+            <div class="img-container">
+                <img src="Images/girl with laptop.webP" alt="girl with laptop" class="img1">
+            </div>
+        </section>
+    </header>
+    
+    <section class="com-labels">
+        <img src="Images/udemy.webP" alt="udemy logo">
+        <img src="Images/coursera.webP" alt="coursera logo">
+        <img src="Images/facebook.webP" alt="facebook logo">
+        <img src="Images/google.webP" alt="google logo">
+    </section>
+
+    <section id="info-section">
+        <h3>How it works</h3>
+        <div id="process-info">
+            <div class="info one">
+                <i class="fas fa-list-alt"></i>
+                <h4>Set Your Plan</h4>
+                <p>
+                    We always stay organized for what we want to teach people. It always good.
+                </p>
+            </div>
+            <div class="info two">
+                <i class="fas fa-search"></i>
+                <h4>Find Your Course</h4>
+                <p>
+                    We always stay organized for what we want to teach people. It always good.
+                </p>
+            </div>
+            <div class="info three">
+                <i class="fa-solid fa-chair"></i>
+                <h4>Book Your Seat</h4>
+                <p>
+                    We always stay organized for what we want to teach people. It always good.
+                </p>
+            </div>
+            <div class="info four">
+                <i class="fa-solid fa-medal"></i>
+                <h4>Get Certificate</h4>
+                <p>
+                    We always stay organized for what we want to teach people. It always good.
+                </p>
+            </div> 
+        </div>
+    </section>
+
+    <section class="more-info-section">
+        <div class="info-img">
+            <img src="Images/woman on desk.webP" alt="A woman on a desk">
+        </div>
+        <div class="div-info">
+            <h3>Access to everything for everyone</h3>
+            <p>Easy secure access to digital learning resources should be the status in education</p>
+            <span><i class="fa-solid fa-check"></i> World-class</span>
+            <span><i class="fa-solid fa-check"></i> Flexible</span>
+            <span><i class="fa-solid fa-check"></i> Affordable</span>
+            <span><i class="fa-solid fa-check"></i> Job-relevant</span>
+            <br>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <section id="product">
+        <div>
+            <h3>Our Latest Courses</h3>
+            <p>Choose from 500+ online video courses with new additions published every month.</p>
+            <button>View More</button>
+        </div>
+        <article id="product_wrapper" class="product_wrapper">
+            <div class="product-div">
+                <img src="Images/design course.webP" alt="design course pic">
+                <div class="product_text">
+                    <p>
+                        UI/UX Course <br>
+                        <b>Figma training from beginner to pro course</b>
+                        <p>9h 20min . 14 lessons</p>
+                    </p>
+                </div>
+            </div>
+            <div class="product-div">
+                <img src="Images/coding course.webP" alt="coding pic">
+                <div class="product_text">
+                    <p>
+                        Programming <br>
+                        <b>Python coding from beginner to pro</b>
+                        <p>9h 20min . 14 lessons</p>
+                    </p>
+                </div>
+            </div>
+            <div class="product-div">
+                <img src="Images/dm course.jpg" alt="digital marketing pic">
+                <div class="product_text">
+                    <p>
+                        Digital marketing <br>
+                        <b>Digital marketing course beginner to pro</b>
+                        <p>9h 20min . 14 lessons</p>
+                    </p>
+                </div> 
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <div id="review-hd">
+            <h3>What our Clients are Saying</h3>
+            <span>            
+                <button class="left_btn" onclick="changeSlide(-1)"><i class="fa-solid fa-less-than"></i></button>
+                <button class="right_btn" onclick="changeSlide(1)"><i class="fa-solid fa-greater-than"></i></button>
+            </span>
+        </div>
+        <div id="review-div">
+            <div class="slide fade">
+                <i class="fa-solid fa-quote-right"></i>
+                <div class="review-img-container">
+                    <img src="Images/person1.webP" alt="customer pic"> 
+                    <span><b>Alex Goncharov</b><br> Los Angeles, CA</span>
+                </div>
+                <p>
+                    Easy, secure access to digital learning should be the staus in education. <br>
+                    One of the advantages of online learning is being at home
+                </p>
+            </div>
+            <div class="slide fade">
+                <i class="fa-solid fa-quote-right" ></i>
+                <div class="review-img-container">
+                    <img src="Images/person3.webP" alt="customer pic">
+                    <span><b>Ruth Taylor</b> <br> Paris, France</span>
+                </div>
+                <p>
+                    Easy, secure access to digital learning should be the staus in education. <br>
+                    One of the advantages of online learning is being at home
+                </p>
+            </div>
+            <div class="slide fade">
+                <i class="fa-solid fa-quote-right" ></i>
+                <div class="review-img-container">
+                   <img src="Images/person2.webP" alt="customer pic"> 
+                   <span><b>Andrew Smith</b> <br>Fort Milis, SC</span>
+                </div>
+                <p>
+                    Easy, secure access to digital learning should be the staus in education. <br>
+                    One of the advantages of online learning is being at home
+                </p>
+            </div>
+            <div class="slide fade">
+                <i class="fa-solid fa-quote-right" ></i>
+                <div class="review-img-container">
+                    <img src="Images/person3.webP" alt="customer pic">
+                    <span><b>Regina Godswill</b> <br>Lagos, Nigeria</span>
+                </div>
+                <p>
+                    Easy, secure access to digital learning should be the staus in education. <br>
+                    One of the advantages of online learning is being at home
+                </p>
+            </div>
+            <!-- Progress bar --> 
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>  
+    </section>
+
+    <section class="email-section">
+        <h3>Subscribe To Our Newsletter</h3>
+        <p>Stay updated with our educational news. We promise not to spam mail update. Subscribe now
+        </p>
+        <form action="#" method="get">
+            <input type="email" placeholder="Enter your email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="ft-left">
+            <img src="Images/web design logo.webP" alt="educom logo">
+            <p>Solution for easy and flexible online learning.You can study anywhere through this platform</p>
+            <span>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </span>
+        </div>
+
+        <ul class="ft-right">
+            <li>
+                <h3>Programs</h3>
+                <ul class="box">
+                    <li><a href="#">Learning Modules</a></li>
+                    <li><a href="#">Paternship</a></li>
+                    <li><a href="#">Event</a></li>
+                    <li><a href="#">Watch Demo</a></li>
+                </ul>
+            </li>
+            <li class="about">
+                <h3>About</h3>
+                <ul class="box">
+                    <li><a href="#">Our Company</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="">Investor Relations</a></li>
+                    <li><a href="#">Social Impact</a></li>
+                </ul>
+            </li>
+            <li >
+                <h3>Resources</h3>
+                <ul class="box">
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Give Feedback</a></li>
+                    <li><a href="#">System Status</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/1975383286.js" crossorigin="anonymous"></script>
+    <script src="Educom page.js"></script>
+</body>
+</html>
